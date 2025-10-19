@@ -1,4 +1,4 @@
-use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import HeroSplit from '@/components/sections/hero/HeroSplit';
@@ -26,8 +26,7 @@ export default function Page() {
       borderRadius="rounded"
     >
       <div id="nav" data-section="nav" className="scroll-mt-24">
-        <div className="mx-auto px-4 md:px-6">
-          <NavbarLayoutFloatingInline
+        <NavbarLayoutFloatingInline
             navItems={[
               { name: "Home", id: "home" },
               { name: "About", id: "about" },
@@ -38,7 +37,6 @@ export default function Page() {
             buttonText="Join Now"
             buttonVariant="hover-magnetic"
           />
-        </div>
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <div className="mx-auto px-4 md:px-6">
